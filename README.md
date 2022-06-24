@@ -28,7 +28,7 @@ Keep in mind that TV-audio can not be controlled via CEC-HDMI
 - **Power OFF** TV
   >`echo 'standby <DEVICE #>' | cec-client -s -d 1`
 
-- Make Rapsi the active source
+- Make Raspberry Pi the active source
   >`echo 'as' | cec-client -s -d 1`
 
 - List all the available commands of HDMI-CEC
